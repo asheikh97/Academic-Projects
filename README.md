@@ -1,2 +1,2 @@
 # Academic-Projects
-CS1 &amp; CS2 (C++)
+Class projects for computer science 1 & 2 in C++
