@@ -17,7 +17,7 @@ Detailed list coming soon
 ```
 
 ## How To 🤖
-##### All of these proejcts are written in C++. Here are a few sugg🤖estions on how to run these prorgams... 
+##### All of these proejcts are written in C++, here are a few suggestions on how to run these prorgams... 
 ```
 Detailed list coming soon
 
