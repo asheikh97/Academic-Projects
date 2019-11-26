@@ -1,0 +1,58 @@
+Script started on Mon Apr  3 14:13:42 2017
+bash: parse_git_branch: command not found
+[?1034h]2;abadalisheikh@Abadalis-MacBook-Pro[[37;44;1m14:13:42[0m][0;31m [32mhw9[0m
+[0;31m[0;49;34m//[0;31m ♥ [0ml[Kcat main.cpp
+// Abadali Sheikh
+// HW9 due 4/3/17
+
+#include <iostream>
+#include <vector>
+#include <iomanip>
+
+using namespace std;
+
+
+
+int main()
+{
+    vector<double> numbers;
+    double num;
+    
+    cout << "Enter numerical values to store inside a vector.\n" ;
+    cout << "Enter a non-numerical value when done." << endl;
+    
+    while(cin >> num)
+        numbers.push_back(num);
+    
+    cout << "The values input are:";
+    
+    for(int i = 0; i < numbers.size(); i++)
+        cout << setw(4) << numbers[i];
+    
+    cout << endl;
+    cout << "The vector size = " << numbers.size() << endl;
+
+    return 0;
+}
+bash: parse_git_branch: command not found
+]2;abadalisheikh@Abadalis-MacBook-Pro[[37;44;1m14:13:49[0m][0;31m [32mhw9[0m
+[0;31m[0;49;34m//[0;31m ♥ [0mcat main.cpp[C[C[C[C[Cg++ main.cpp && ./a.out[C[C[C[C[C[11Pcat main.cpp[C[C[C[C[C[Cd[Kat main.cpp[C[C[C[C[Cg++ main.cpp && ./a.out
+Enter numerical values to store inside a vector.
+Enter a non-numerical value when done.
+4.4 2.3 1.3 6.2 
+q
+The values input are: 4.4 2.3 1.3 6.2
+The vector size = 4
+bash: parse_git_branch: command not found
+]2;abadalisheikh@Abadalis-MacBook-Pro[[37;44;1m14:14:22[0m][0;31m [32mhw9[0m
+[0;31m[0;49;34m//[0;31m ♥ [0mg++ main.cpp && ./a.out
+Enter numerical values to store inside a vector.
+Enter a non-numerical value when done.
+4.4 2.3 1.3 6.2 q
+The values input are: 4.4 2.3 1.3 6.2
+The vector size = 4
+bash: parse_git_branch: command not found
+]2;abadalisheikh@Abadalis-MacBook-Pro[[37;44;1m14:14:35[0m][0;31m [32mhw9[0m
+[0;31m[0;49;34m//[0;31m ♥ [0mexit
+
+Script done on Mon Apr  3 14:14:37 2017

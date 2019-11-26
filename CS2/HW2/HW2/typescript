@@ -1,0 +1,62 @@
+// Abadali Sheikh
+// Due date 2/13/17
+// HW2
+
+#include <iostream>
+#include <cmath>
+#include <iomanip>
+
+using namespace std;
+
+int factorial(int);
+double power(double, int);
+
+int main() {
+    
+    long double term,summation = 1;
+    
+    cout << "'x'" << setw(14) <<"My e^x" << setw(14) << "Real e^x" << endl;
+    
+    for(int i = 2; i <= 10; i+=2)
+    {
+    
+      for(int j = 1; j <= i; ++j)
+        {
+            term = (power(i,j)) / (factorial(j));
+            summation += term;
+        }
+        cout << showpoint << fixed << setprecision(4);
+        cout << setw(2) << i << setw(14) << summation; 
+        cout << setw(14) << exp(i) << endl;
+    }
+
+    return 0;
+}
+
+int factorial(int n)
+{
+    int result = 1;
+    
+    for(int i = 2; i <= n; ++i)
+        result = result*i;
+    
+    return result;
+}
+
+double power(double base, int exponent)
+{
+    double result = 1;
+    
+    for(int i = 1; i <= exponent; ++i)
+        result *= base;
+    
+    return result;
+}
+
+'x'        My e^x      Real e^x
+ 2        5.0000        7.3891
+ 4       38.3333       54.5982
+ 6      281.9333      403.4288
+ 8     2047.2921     2980.9580
+10    14888.5972    22026.4658
+
